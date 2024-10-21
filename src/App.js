@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+
+import  './App.css';
+import Product from './pages/Products/Product';
+import Sidebar from './pages/sidebar/Sidebar';
+import {useEffect, useState} from 'react';
+import Std from './Std';
+import University from './University';
+import Student from './student';
+
+// import { FaStar } from "react-icons/FaStar";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  
+    
+    return(
+      <>
+   
+                <Student />
+      </>
+  )
+  
 }
-
 export default App;
